@@ -1,0 +1,66 @@
+#floating-div{
+    display: none;
+    background-color: #101f4c;
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 60px;
+}
+
+#floating-div:target{
+    display: block;
+}
+
+#floating-div a{
+    text-decoration: none;
+    text-align: right;
+}
+
+#floating-div a h3{
+    color: white;
+    margin-right: 14px;
+}
+
+#player{
+    margin: auto;
+    width: 313px;
+    list-style: none;
+}
+
+#player li, #control-button li{
+    margin: 0px 25px 25px 0px;
+    display: inline;
+    color: white;
+}
+
+#player li{
+    padding-left: 8px;
+}
+
+#control-button{
+    list-style: none;
+    text-align: right;
+    padding: 0px;
+}
+
+#slider{
+    width: 307px;
+    margin: auto;
+    color: white;
+}
+
+#play-image{
+    width: 61px;
+    margin-top: -74px;
+    margin-left: 16px;
+}
+
+#play-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    box-shadow: 0 0 2px 2px white;
+    border: 1px solid white;
+}
